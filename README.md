@@ -33,9 +33,16 @@ detecting unused variables, and reducing the risk of accidental secret exposure.
 
 **Tech:** Python • CLI • Static Analysis • Developer Tooling
 
+### [Go Image Optimizer](https://github.com/juniocr26/go-image-optimizer)
+
+An image optimization project built to explore Go through a real-world backend
+use case, with an interactive web interface and containerized development environment.
+
+**Tech:** Go • Next.js • React • Tailwind CSS • Docker
+
 ## 📚 Currently Exploring
 
-Distributed Systems • System Design • Backend Architecture • Reliability • Scalability
+Go • Next.js • Distributed Systems • System Design • Backend Architecture • Reliability • Scalability
 
 ## 📫 Connect with Me
 
