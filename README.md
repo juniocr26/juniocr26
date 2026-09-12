@@ -10,7 +10,7 @@ real-time communication, and database performance.
 On the frontend, I have worked with technologies such as Vue.js, Angular,
 Alpine.js, Tailwind CSS, and JavaScript.
 
-## 🔧 Core Technologies
+## 🛠️ Core Technologies
 
 **Backend:** PHP • Laravel • REST APIs • RabbitMQ • Redis • Node.js  
 **Frontend:** JavaScript • Vue.js • Angular • Alpine.js • Tailwind CSS  
@@ -19,24 +19,24 @@ Alpine.js, Tailwind CSS, and JavaScript.
 
 ## 🚀 Featured Projects
 
-### 🔗 URL Shortener
+### [URL Shortener](https://github.com/juniocr26/url-shortener)
 
-A URL shortening service built to explore scalable backend architecture
-and high-throughput data access.
+A backend and system design project exploring URL shortening with
+atomic ID generation, distributed persistence, and containerized infrastructure.
 
-**Tech:** Python
+**Tech:** Python • FastAPI • Redis • Cassandra • Docker • Pytest
 
-### 🔐 Env Auditor
+### [ENV Auditor](https://github.com/juniocr26/env-auditor)
 
-A Python CLI for auditing, synchronizing, and cleaning `.env` files while
-helping prevent accidental secret exposure.
+A dependency-free Python CLI for auditing and synchronizing environment files,
+detecting unused variables, and reducing the risk of accidental secret exposure.
 
-**Tech:** Python
+**Tech:** Python • CLI • Static Analysis • Developer Tooling
 
-## 🧠 Currently Exploring
+## 📚 Currently Exploring
 
 Distributed Systems • System Design • Backend Architecture • Reliability • Scalability
 
-## 📫 Connect with me
+## 📫 Connect with Me
 
 [LinkedIn](https://www.linkedin.com/in/j%C3%BAnio-rosa-94b5731b2/)
