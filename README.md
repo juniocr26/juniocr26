@@ -14,19 +14,19 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 
 ### Languages
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### Backend & APIs
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge)
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
@@ -44,7 +44,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
 
 ![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
 
@@ -53,8 +53,8 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 ![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
-![TWA](https://img.shields.io/badge/TWA-4285F4?style=for-the-badge)
-![Bubblewrap](https://img.shields.io/badge/Bubblewrap-4285F4?style=for-the-badge)
+![TWA](https://img.shields.io/badge/TWA-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Bubblewrap](https://img.shields.io/badge/Bubblewrap-4285F4?style=for-the-badge&logo=android&logoColor=white)
 ![Android SDK](https://img.shields.io/badge/Android%20SDK-3DDC84?style=for-the-badge&logo=android&logoColor=black)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
@@ -68,11 +68,13 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![PouchDB](https://img.shields.io/badge/PouchDB-6CC8E8?style=for-the-badge&logo=pouchdb&logoColor=black)
 
 ### Messaging & Real-Time
 
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-005571?style=for-the-badge)
+![WebSockets](https://img.shields.io/badge/WebSockets-005571?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Firebase Cloud Messaging](https://img.shields.io/badge/Firebase%20Cloud%20Messaging-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
@@ -80,7 +82,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Stripe Connect](https://img.shields.io/badge/Stripe%20Connect-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
-![Webhooks](https://img.shields.io/badge/Webhooks-2088FF?style=for-the-badge)
+![Webhooks](https://img.shields.io/badge/Webhooks-2088FF?style=for-the-badge&logo=webhook&logoColor=white)
 
 ### Testing & Quality
 
@@ -89,9 +91,9 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 ![Testcontainers](https://img.shields.io/badge/Testcontainers-2496ED?style=for-the-badge&logo=testcontainers&logoColor=white)
 ![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=jasmine&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![jsdom](https://img.shields.io/badge/jsdom-323330?style=for-the-badge)
-![PHPUnit](https://img.shields.io/badge/PHPUnit-3C9CD7?style=for-the-badge)
-![Mockery](https://img.shields.io/badge/Mockery-6C5CE7?style=for-the-badge)
+![jsdom](https://img.shields.io/badge/jsdom-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![PHPUnit](https://img.shields.io/badge/PHPUnit-3C9CD7?style=for-the-badge&logo=php&logoColor=white)
+![Mockery](https://img.shields.io/badge/Mockery-6C5CE7?style=for-the-badge&logo=php&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Go Testing](https://img.shields.io/badge/Go%20Testing-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
@@ -103,13 +105,15 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge)
-![Azure Pipelines](https://img.shields.io/badge/Azure%20Pipelines-0078D7?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Azure Pipelines](https://img.shields.io/badge/Azure%20Pipelines-0078D7?style=for-the-badge&logo=azurepipelines&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![System Design](https://img.shields.io/badge/System%20Design-34495E?style=for-the-badge)
+![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-2C3E50?style=for-the-badge)
 
 ### Additional Experience
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Scriptcase](https://img.shields.io/badge/Scriptcase-1D4ED8?style=for-the-badge)
