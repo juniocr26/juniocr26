@@ -121,13 +121,13 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 
 ## 🚀 Featured Projects
 
-### [Multi Store Commerce](https://github.com/juniocr26/multi-store-commerce)
+### [Aurora Bakery](https://github.com/juniocr26/aurora-bakery)
 
-A full-stack portfolio project in development for a fictional bakery network. The implemented foundation includes an active-store directory, a Spring Boot modular monolith, an Angular interface with loading, empty, error, and retry states, and PostgreSQL persistence with Flyway migrations.
+A full-stack portfolio project in development for a fictional single-store bakery. Built with a Spring Boot modular monolith, Angular, and PostgreSQL, the project focuses on product catalog management, customer ordering, promotions, loyalty rules, administrative operations, authentication, authorization, and Stripe test payments.
 
-Includes API tests, integration tests against real PostgreSQL with Testcontainers, Angular tests with Vitest and jsdom, local OpenAPI documentation, and a Docker Compose development environment. Catalog, checkout, and order management are planned for later increments.
+The architecture intentionally avoids unnecessary multi-tenant and microservice complexity, prioritizing domain modeling, maintainability, automated testing, security, and documented architectural trade-offs. The project also includes Flyway migrations, Testcontainers-based integration tests, OpenAPI documentation, and a Docker Compose development environment.
 
-**Tech:** Java • Spring Boot • Spring Security • Spring Data JPA • Hibernate • Angular • TypeScript • RxJS • PostgreSQL • Flyway • Maven • JUnit • Mockito • Testcontainers • Vitest • jsdom • Docker
+**Tech:** Java • Spring Boot • Spring Security • Spring Data JPA • Hibernate • Angular • TypeScript • RxJS • PostgreSQL • Flyway • Stripe • Maven • JUnit • Mockito • Testcontainers • Vitest • jsdom • Docker
 
 ### VivaBem
 
