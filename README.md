@@ -8,7 +8,7 @@ I build web applications, APIs, integrations, and asynchronous systems, primaril
 
 On the frontend, I've worked with Angular, Vue.js, Alpine.js, Tailwind CSS, and JavaScript. My mobile experience includes Ionic and Angular applications, iOS build and publishing workflows with Xcode, and an Android Trusted Web Activity (TWA) wrapper for the VivaBem PWA, built with Bubblewrap and Docker.
 
-My portfolio projects give me hands-on experience with Java and Spring Boot, Go, Python, FastAPI, Next.js, React, and distributed persistence. I am currently building Multi Store Commerce with a Spring Boot modular monolith, Angular, and PostgreSQL.
+My portfolio projects give me hands-on experience with Java and Spring Boot, Go, Python, FastAPI, Next.js, React, and distributed persistence. I am currently refocusing my Java project as Payment Reconciliation Lab, using Spring Boot, Angular, PostgreSQL, and Stripe to explore consistency between local payment records and an external payment provider.
 
 ## 🛠️ Technologies & Tools
 
@@ -121,11 +121,11 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 
 ## 🚀 Featured Projects
 
-### [Aurora Bakery](https://github.com/juniocr26/aurora-bakery)
+### [Payment Reconciliation Lab](https://github.com/juniocr26/payment-reconciliation-lab)
 
-A full-stack portfolio project in development for a fictional single-store bakery. Built with a Spring Boot modular monolith, Angular, and PostgreSQL, the project focuses on product catalog management, customer ordering, promotions, loyalty rules, administrative operations, authentication, authorization, and Stripe test payments.
+A backend engineering portfolio project being refocused from an earlier commerce application. Its planned scope is to detect and explain discrepancies between local payment records and Stripe test payments, using Java, Spring Boot, Angular, and PostgreSQL.
 
-The architecture intentionally avoids unnecessary multi-tenant and microservice complexity, prioritizing domain modeling, maintainability, automated testing, security, and documented architectural trade-offs. The project also includes Flyway migrations, Testcontainers-based integration tests, OpenAPI documentation, and a Docker Compose development environment.
+The reconciliation workflow is under development. The intended focus is on explicit comparison rules, repeatable reconciliation runs, audit history, and distinguishing payment discrepancies from external API failures. An Angular interface will make reconciliation results and supporting evidence inspectable.
 
 **Tech:** Java • Spring Boot • Spring Security • Spring Data JPA • Hibernate • Angular • TypeScript • RxJS • PostgreSQL • Flyway • Stripe • Maven • JUnit • Mockito • Testcontainers • Vitest • jsdom • Docker
 
