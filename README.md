@@ -8,12 +8,13 @@ I build web applications, APIs, integrations, and asynchronous systems, primaril
 
 On the frontend, I've worked with Angular, Vue.js, Alpine.js, Tailwind CSS, and JavaScript. My mobile experience includes Ionic and Angular applications, iOS build and publishing workflows with Xcode, and an Android Trusted Web Activity (TWA) wrapper for the VivaBem PWA, built with Bubblewrap and Docker.
 
-My portfolio projects give me hands-on experience with Java and Spring Boot, Go, Python, FastAPI, Next.js, React, and distributed persistence. I am currently refocusing my Java project as Payment Reconciliation Lab, using Spring Boot, Angular, PostgreSQL, and Stripe to explore consistency between local payment records and an external payment provider.
+My portfolio projects give me hands-on experience with Java and Spring Boot, Rust, Go, Python, FastAPI, Next.js, React, and distributed persistence. I am currently refocusing my Java project as Payment Reconciliation Lab, using Spring Boot, Angular, PostgreSQL, and Stripe to explore consistency between local payment records and an external payment provider.
 
 ## 🛠️ Technologies & Tools
 
 ### Languages
 
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -121,6 +122,14 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Go,
 
 ## 🚀 Featured Projects
 
+### [Reliable Event Relay](https://github.com/juniocr26/rust-event-relay)
+
+A Rust backend engineering portfolio and study project exploring reliable event delivery and failure recovery in distributed systems. The current implementation includes an Axum HTTP service, a canonical event envelope, a PostgreSQL outbox schema and read repository, a confirmed RabbitMQ publisher adapter, and durable delivery ownership models and contracts.
+
+Development is incremental, with documented architectural decisions and trade-offs. Outbox processing, delivery orchestration, retries, idempotency, and backpressure remain planned work; the HTTP service does not yet run a delivery worker.
+
+**Tech:** Rust • Axum • SQLx • PostgreSQL • RabbitMQ • Lapin • Docker
+
 ### [Payment Reconciliation Lab](https://github.com/juniocr26/payment-reconciliation-lab)
 
 A backend engineering portfolio project being refocused from an earlier commerce application. Its planned scope is to detect and explain discrepancies between local payment records and Stripe test payments, using Java, Spring Boot, Angular, and PostgreSQL.
@@ -155,7 +164,7 @@ An image processing application for compression, resizing, and format conversion
 
 ## 📚 Currently Exploring
 
-Java • Spring Boot • Go • Python • Next.js • Modular Monoliths • Distributed Systems • System Design • Backend Architecture • Reliability • Scalability
+Java • Spring Boot • Rust • Go • Python • Next.js • Modular Monoliths • Distributed Systems • System Design • Backend Architecture • Reliability • Scalability
 
 ## 📫 Connect with Me
 
