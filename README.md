@@ -25,6 +25,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 
 ### Backend & APIs
 
+![Axum](https://img.shields.io/badge/Axum-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -62,6 +63,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 
 ### Databases & Caching
 
+![SQLx](https://img.shields.io/badge/SQLx-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -75,6 +77,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 
 ### Messaging & Real-Time
 
+![Lapin](https://img.shields.io/badge/Lapin-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-005571?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
