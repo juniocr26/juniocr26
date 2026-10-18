@@ -8,7 +8,7 @@ I build web applications, APIs, integrations, and asynchronous systems, primaril
 
 On the frontend, I've worked with Angular, Vue.js, Alpine.js, Tailwind CSS, and JavaScript. My mobile experience includes Ionic and Angular applications, iOS build and publishing workflows with Xcode, and an Android Trusted Web Activity (TWA) wrapper for the VivaBem PWA, built with Bubblewrap and Docker.
 
-My portfolio projects give me hands-on experience with Java and Spring Boot, Rust, Go, Python, FastAPI, Next.js, React, and distributed persistence. I am currently refocusing my Java project as Payment Reconciliation Lab, using Spring Boot, Angular, PostgreSQL, and Stripe to explore consistency between local payment records and an external payment provider.
+My portfolio projects give me hands-on experience with Java and Spring Boot, Rust, Go, Python, FastAPI, Next.js, React, and distributed persistence. I am currently refocusing my Java project as Payment Reconciliation Lab, using Spring Boot, Angular, PostgreSQL, and Stripe to explore consistency between local payment records and an external payment provider. I am also planning Engineering Library, an evolution of my existing documentation repository into a local-first, AI-assisted engineering knowledge and documentation platform.
 
 ## 🛠️ Technologies & Tools
 
@@ -116,6 +116,14 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 ![System Design](https://img.shields.io/badge/System%20Design-34495E?style=for-the-badge)
 ![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-2C3E50?style=for-the-badge)
 
+### Planned for Engineering Library
+
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-D30001?style=for-the-badge&logo=rubyonrails&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+
+These are proposed technologies for Engineering Library, not a claim of production experience or completed implementation. Docker and Docker Compose are listed above.
+
 ### Additional Experience
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -132,6 +140,14 @@ A Rust backend engineering portfolio and study project exploring reliable event 
 Development is incremental, with documented architectural decisions and trade-offs. Outbox processing, delivery orchestration, retries, idempotency, and backpressure remain planned work; the HTTP service does not yet run a delivery worker.
 
 **Tech:** Rust • Axum • SQLx • PostgreSQL • RabbitMQ • Lapin • Docker
+
+### [Engineering Library](https://github.com/juniocr26/engineering-library)
+
+An existing engineering documentation repository planned to evolve into a local-first, AI-assisted documentation and knowledge platform. The proposed application will analyze authorized code repositories and generate structured, bilingual documentation (English and Brazilian Portuguese), project READMEs, and technical interview preparation material while preserving established documentation conventions.
+
+The roadmap also explores incremental documentation updates, evidence-backed analysis of cross-project integrations, and a reusable local AI agent designed to run without paid inference APIs. The software will be public, while personal and internal project documentation will remain private. The application and local-agent workflow are **planned**, not implemented features of the current repository.
+
+**Planned tech:** Ruby • Ruby on Rails • Docker • Docker Compose • Ollama • Local LLMs • Git
 
 ### [Payment Reconciliation Lab](https://github.com/juniocr26/payment-reconciliation-lab)
 
@@ -167,7 +183,7 @@ An image processing application for compression, resizing, and format conversion
 
 ## 📚 Currently Exploring
 
-Java • Spring Boot • Rust • Go • Python • Next.js • Modular Monoliths • Distributed Systems • System Design • Backend Architecture • Reliability • Scalability
+Java • Spring Boot • Rust • Go • Python • Ruby • Ruby on Rails • Local AI Agents • LLMs • Next.js • Modular Monoliths • Distributed Systems • System Design • Backend Architecture • Reliability • Scalability
 
 ## 📫 Connect with Me
 
