@@ -15,6 +15,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 ### Languages
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -36,6 +37,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-D30001?style=for-the-badge&logo=rubyonrails&logoColor=white)
 
 ### Frontend
 
@@ -115,14 +117,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![System Design](https://img.shields.io/badge/System%20Design-34495E?style=for-the-badge)
 ![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-2C3E50?style=for-the-badge)
-
-### Engineering Library Stack
-
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-D30001?style=for-the-badge&logo=rubyonrails&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
-
-The stack selected for the Engineering Library development roadmap. Docker and Docker Compose are listed above.
 
 ### Additional Experience
 
