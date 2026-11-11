@@ -90,6 +90,7 @@ My portfolio projects give me hands-on experience with Java and Spring Boot, Rus
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Stripe Connect](https://img.shields.io/badge/Stripe%20Connect-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Webhooks](https://img.shields.io/badge/Webhooks-2088FF?style=for-the-badge&logo=webhook&logoColor=white)
+![Mercado Pago](https://img.shields.io/badge/Mercado%20Pago%20API-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)
 
 ### Testing & Quality
 
@@ -154,9 +155,17 @@ The reconciliation workflow is under development. The intended focus is on expli
 
 ### VivaBem
 
-An independent psychological care platform currently in development, built as a PWA. It connects Laravel applications and supporting services through REST APIs and asynchronous messaging, with appointment scheduling, payment integrations, notifications, and real-time updates. The Android wrapper uses Trusted Web Activity, with a containerized Bubblewrap/Gradle build workflow and Digital Asset Links verification.
+An independent psychological care platform under active development, built as a multi-application ecosystem with Laravel, Node.js, REST APIs, and asynchronous messaging.
 
-**Tech:** PHP • Laravel • Alpine.js • Tailwind CSS • RabbitMQ • Redis • MySQL • MongoDB • Stripe Connect • WebSockets • Docker • PWA • TWA • Bubblewrap
+The platform includes appointment scheduling, payment integrations with Stripe Connect and Mercado Pago, notifications, and real-time communication. Its architecture combines RabbitMQ, Redis, relational and document databases, and Docker-based services.
+
+I also develop internal engineering tools for the ecosystem, including a technical operations cockpit for infrastructure monitoring, database inspection, message queue management, and structured log observability.
+
+The platform is delivered as a Progressive Web App (PWA), with an Android Trusted Web Activity (TWA) wrapper built using Bubblewrap and Docker.
+
+**Tech:** PHP • Laravel • Node.js • Alpine.js • Tailwind CSS • RabbitMQ • Redis • MySQL • MongoDB • Stripe Connect • Mercado Pago API • WebSockets • Docker • PWA • TWA • Bubblewrap
+
+*Private repository — architecture and technical experience shared at a high level.*
 
 ### [URL Shortener](https://github.com/juniocr26/url-shortener)
 
