@@ -10,7 +10,7 @@ On the frontend, I've worked with Angular, Vue.js, Alpine.js, Tailwind CSS, and 
 
 My portfolio projects give me hands-on experience with Java and Spring Boot, Rust, Go, Python, FastAPI, Next.js, React, and distributed persistence.
 
-I am also developing **Engineering Library**, a local-first, AI-assisted technical documentation platform built with Ruby on Rails, Next.js, PostgreSQL, Docker, and Ollama. The project combines source-code analysis, bilingual documentation generation, local LLM inference, and evidence-based evaluation, with a focus on accurate and incremental documentation maintenance.
+I built **Engineering Library**, a local-first, AI-assisted technical documentation platform with Ruby on Rails, Next.js, PostgreSQL, Docker, and Ollama. It implements source-grounded bilingual documentation generation, local LLM inference, incremental workflows, recovery, and evidence-based evaluation. I continue improving the agent through structured experiments and regression testing.
 
 ## 🛠️ Technologies & Tools
 
@@ -133,33 +133,25 @@ I am also developing **Engineering Library**, a local-first, AI-assisted technic
 
 ### [Reliable Event Relay](https://github.com/juniocr26/rust-event-relay)
 
-A Rust backend engineering portfolio and study project exploring reliable event delivery and failure recovery in distributed systems. The current implementation includes an Axum HTTP service, a canonical event envelope, a PostgreSQL outbox schema and read repository, a confirmed RabbitMQ publisher adapter, and durable delivery ownership models and contracts.
+A completed Rust distributed event-delivery project implementing a transactional PostgreSQL outbox, confirmed RabbitMQ publishing, durable delivery ownership with leases and tokens, retry scheduling with backoff and jitter, and authorized replay with audit records. Includes an idempotent consumer with transactional effects, quarantine handling, bounded admission, recovery, readiness checks, and delivery metrics.
 
-Development is incremental, with documented architectural decisions and trade-offs. Outbox processing, delivery orchestration, retries, idempotency, and backpressure remain planned work; the HTTP service does not yet run a delivery worker.
-
-**Tech:** Rust • Axum • SQLx • PostgreSQL • RabbitMQ • Lapin • Docker
+**Tech:** Rust • Tokio • Axum • SQLx • PostgreSQL • RabbitMQ • Lapin • Docker
 
 ### [Engineering Library](https://github.com/juniocr26/engineering-library)
 
-A **local-first, AI-assisted engineering knowledge and technical documentation platform** designed to help developers explore software architecture, understand source code, and maintain structured project documentation.
+A **local-first, AI-assisted engineering knowledge and technical documentation platform** with an implemented web reader, bilingual catalog, source-code navigation, and a local LLM documentation workflow. Built with Ruby on Rails, Next.js, TypeScript, PostgreSQL, Docker, and Ollama.
 
-Built with **Ruby on Rails, Next.js, TypeScript, PostgreSQL, Docker, and Ollama**, the platform combines a web-based technical documentation reader with a local AI documentation agent.
+The platform implements:
 
-The documentation workflow supports:
+- **Source-grounded documentation:** bounded code-context selection, source references and hashes, and structured generation in English and Brazilian Portuguese.
+- **Local AI integration:** Ollama-based inference with output validation and independently evaluated documentation drafts.
+- **Incremental generation and recovery:** generation-state tracking, selective updates, human-content preservation, and recovery from interrupted writes.
+- **Technical reading and knowledge management:** project navigation, annotations, bookmarks, and bilingual reading interfaces.
+- **Evaluation and reliability:** regression tests and cross-domain experiments examining factual accuracy, coverage, and bilingual consistency.
 
-- **AI-assisted documentation generation:** Analyzes selected source-code components and generates structured technical documentation in English and Brazilian Portuguese.
-- **Source-grounded technical analysis:** Uses source references, validation rules, and reproducible experiments to evaluate generated technical explanations.
-- **Incremental documentation workflows:** Tracks source and generation state to support selective updates, recovery, and no-op behavior when regeneration is unnecessary.
-- **Multi-section documentation:** Produces project overviews, architectural explanations, technical contracts, and operational guidance from bounded source analysis.
-- **Local AI inference:** Uses Ollama and locally hosted language models without requiring paid cloud inference APIs.
-- **Documentation quality evaluation:** Compares independently generated documentation, evaluates factual accuracy, and measures technical coverage and bilingual consistency.
-- **Technical knowledge navigation:** Provides an organized documentation-reading experience with bilingual content and project-level navigation.
+The core application and documentation workflow are implemented. I continue refining the documentation agent through iterative evaluations; quality targets and broad repository coverage are ongoing engineering goals, not claimed completed benchmarks. The project uses local model inference, **not model-weight fine-tuning**.
 
-The project is under active development, with ongoing work focused on improving documentation accuracy, architectural coverage, incremental updates, and reliable generation across different programming languages.
-
-**Long-term goal:** Make technical documentation maintenance as straightforward as running `make docs` after a source-code change, automatically updating only the documentation that needs to change.
-
-**Tech:** Ruby • Ruby on Rails • Next.js • TypeScript • PostgreSQL • Docker • Docker Compose • Ollama • Local LLMs • Python • Markdown • Source Code Analysis
+**Tech:** Ruby • Ruby on Rails • Next.js • TypeScript • PostgreSQL • Docker • Docker Compose • Ollama • Local LLMs • Python • Markdown
 
 ### [Payment Reconciliation Lab](https://github.com/juniocr26/payment-reconciliation-lab)
 
@@ -185,21 +177,21 @@ The platform is delivered as a Progressive Web App (PWA), with an Android Truste
 
 ### [URL Shortener](https://github.com/juniocr26/url-shortener)
 
-A backend and system design project exploring URL shortening with atomic ID generation in Redis, Base62 encoding, reversible code obfuscation, and persistence in a local three-node Cassandra cluster.
+A completed Python URL-shortening API with authenticated creation and public redirects. Combines atomic Redis ID allocation, Base62 encoding, reversible fixed-width code obfuscation, and Cassandra persistence. Includes input validation, infrastructure error handling, automated tests, and a three-node local Cassandra configuration.
 
-**Tech:** Python • FastAPI • Redis • Cassandra • Docker • Pytest
+**Tech:** Python • FastAPI • Pydantic • Redis • Cassandra • Pytest • Docker Compose
 
 ### [ENV Auditor](https://github.com/juniocr26/env-auditor)
 
-A dependency-free Python CLI for auditing and synchronizing environment files, identifying potentially unused variables, and flagging possible secrets in `.env.example`. Includes dry-run and audit-only modes, backups, and safeguards for variables used outside the scanned code.
+A completed dependency-free Python CLI that synchronizes environment-file keys against authoritative examples. Preserves existing values, supports audit-only and dry-run previews, and creates private backups before safely replacing changed files. Includes assignment parsing, symbolic-link safeguards, atomic file replacement, and tests for idempotency and failure handling. It does **not** claim semantic code-usage analysis or secret detection.
 
-**Tech:** Python • CLI • Static Analysis • Developer Tooling
+**Tech:** Python • argparse • pathlib • unittest • Developer Tooling
 
 ### [Go Image Optimizer](https://github.com/juniocr26/go-image-optimizer)
 
-An image processing application for compression, resizing, and format conversion, built to explore Go through a practical backend use case. Includes a Next.js interface, byte-based format detection, processing limits, and server-generated previews for supported images the browser cannot display.
+A completed image-processing application with a Go HTTP backend and a Next.js interface. Implements compression, resizing, format conversion, and browser-compatible previews. The Go service uses content-based format detection, upload and pixel limits, EXIF orientation handling, format-specific codecs, explicit error responses, graceful shutdown, and automated HTTP and image-processing tests.
 
-**Tech:** Go • Next.js • React • TypeScript • Tailwind CSS • Docker
+**Tech:** Go • net/http • WebP • AVIF • libheif • Next.js • React • TypeScript • Tailwind CSS • Docker
 
 ## 📚 Currently Exploring
 
