@@ -8,7 +8,9 @@ I build web applications, APIs, integrations, and asynchronous systems, primaril
 
 On the frontend, I've worked with Angular, Vue.js, Alpine.js, Tailwind CSS, and JavaScript. My mobile experience includes Ionic and Angular applications, iOS build and publishing workflows with Xcode, and an Android Trusted Web Activity (TWA) wrapper for the VivaBem PWA, built with Bubblewrap and Docker.
 
-My portfolio projects give me hands-on experience with Java and Spring Boot, Rust, Go, Python, FastAPI, Next.js, React, and distributed persistence. I am currently refocusing my Java project as Payment Reconciliation Lab, using Spring Boot, Angular, PostgreSQL, and Stripe to explore consistency between local payment records and an external payment provider. My next development focus is Engineering Library, evolving my existing documentation repository into a local-first, AI-assisted engineering knowledge and documentation platform.
+My portfolio projects give me hands-on experience with Java and Spring Boot, Rust, Go, Python, FastAPI, Next.js, React, and distributed persistence.
+
+I am also developing **Engineering Library**, a local-first, AI-assisted technical documentation platform built with Ruby on Rails, Next.js, PostgreSQL, Docker, and Ollama. The project combines source-code analysis, bilingual documentation generation, local LLM inference, and evidence-based evaluation, with a focus on accurate and incremental documentation maintenance.
 
 ## 🛠️ Technologies & Tools
 
@@ -139,11 +141,25 @@ Development is incremental, with documented architectural decisions and trade-of
 
 ### [Engineering Library](https://github.com/juniocr26/engineering-library)
 
-An engineering documentation repository evolving into a local-first, AI-assisted documentation and knowledge platform. The project focuses on automating the analysis of authorized code repositories and the creation of structured, bilingual documentation (English and Brazilian Portuguese), project READMEs, and technical interview preparation material while preserving established documentation conventions.
+A **local-first, AI-assisted engineering knowledge and technical documentation platform** designed to help developers explore software architecture, understand source code, and maintain structured project documentation.
 
-Its development roadmap covers incremental documentation updates, evidence-backed analysis of cross-project integrations, and a reusable local AI agent designed to run on local hardware without paid inference APIs. The software is intended for public use, with personal and internal project documentation kept private. The repository currently contains the documentation foundation; the application and agent capabilities are the next development milestones.
+Built with **Ruby on Rails, Next.js, TypeScript, PostgreSQL, Docker, and Ollama**, the platform combines a web-based technical documentation reader with a local AI documentation agent.
 
-**Tech stack:** Ruby • Ruby on Rails • Docker • Docker Compose • Ollama • Local LLMs • Git
+The documentation workflow supports:
+
+- **AI-assisted documentation generation:** Analyzes selected source-code components and generates structured technical documentation in English and Brazilian Portuguese.
+- **Source-grounded technical analysis:** Uses source references, validation rules, and reproducible experiments to evaluate generated technical explanations.
+- **Incremental documentation workflows:** Tracks source and generation state to support selective updates, recovery, and no-op behavior when regeneration is unnecessary.
+- **Multi-section documentation:** Produces project overviews, architectural explanations, technical contracts, and operational guidance from bounded source analysis.
+- **Local AI inference:** Uses Ollama and locally hosted language models without requiring paid cloud inference APIs.
+- **Documentation quality evaluation:** Compares independently generated documentation, evaluates factual accuracy, and measures technical coverage and bilingual consistency.
+- **Technical knowledge navigation:** Provides an organized documentation-reading experience with bilingual content and project-level navigation.
+
+The project is under active development, with ongoing work focused on improving documentation accuracy, architectural coverage, incremental updates, and reliable generation across different programming languages.
+
+**Long-term goal:** Make technical documentation maintenance as straightforward as running `make docs` after a source-code change, automatically updating only the documentation that needs to change.
+
+**Tech:** Ruby • Ruby on Rails • Next.js • TypeScript • PostgreSQL • Docker • Docker Compose • Ollama • Local LLMs • Python • Markdown • Source Code Analysis
 
 ### [Payment Reconciliation Lab](https://github.com/juniocr26/payment-reconciliation-lab)
 
